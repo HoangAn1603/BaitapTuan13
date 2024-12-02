@@ -85,7 +85,7 @@ int main() {
     queue queue;
     int n;
     if(queue.isEmpty()) {
-        cout<<"Hang doi trong"<< edl;
+        cout<<"Hang doi trong"<< endl;
     }
     cout<<"nhap so khach cua cua hang: ";
     cin>>n;
