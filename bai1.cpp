@@ -1,5 +1,4 @@
 #include <iostream>
-#include <queue>
 #include <string.h>
 
 using namespace std;
@@ -33,7 +32,7 @@ void enqueue(string name, int price, int quantity) {
         return;
     }
 
-    Node* newNode = new Node(name, price, quantity, NULL);
+    Node* newNode = new Node{name, price, quantity, NULL};
     if(R == NULL) {
         F=R = newNode;
     } else{
@@ -51,7 +50,7 @@ void dequeue() {
     Node *p = F;
     F = F-> next;
     if(F == NULL) {
-        R == NULL;
+        R = NULL;
     }
     cout<<p->name<<" da thanh toan xong"<< endl;
     delete p;
