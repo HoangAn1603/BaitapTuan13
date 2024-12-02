@@ -93,8 +93,7 @@ int main() {
         string name;
         int price, quantity;
         cout<<"Nhap ten khach hang thu " <<i<< ": ";
-        cin>>ignore();
-        getline(cin, name);
+        cin>>name;
         cout<<"So tien cua khach hang thu " <<i<< ": ";
         cin>>price;
         cout<<"Nhap so san pham A cua khach hang thu " <<i<< ": ";
