@@ -88,7 +88,7 @@ int main() {
     }
     cout<<"nhap so khach cua cua hang: ";
     cin>>n;
-    for(int i=0;i<=n;i++) {
+    for(int i=1 ;i<=n; i++) {
         string name;
         int price, quantity;
         cout<<"Nhap ten khach hang thu " <<i<< ": ";
